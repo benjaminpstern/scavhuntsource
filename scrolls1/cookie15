@@ -1,0 +1,5 @@
+When rhys is run alone, there is successful pseudorandomness.  When bob is
+run independently, he successfully calls rhys and there is still
+successful pseudorandomness.   But when rich is put in charge, all the
+randomness goes away and there is only the number 8, every time.
+   --hreichgo in msg 2786

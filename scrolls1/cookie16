@@ -1,0 +1,37 @@
+3000: From pete@@peterlyons.com Fri Oct 26 19:38:12 2001 "Java References"
+>> More? [ynq] 
+
+Just be careful there - there is only 1 Vector object, so saying that
+"foo" is added to all 3 vectors is misleading.  You make new objects
+with the new operator. Creating copies of references does not make new
+objects.  Think of the new operator as making you a new Television,
+and when you pass references around, it's like having multiple remote
+controls.  Here's an example;
+public class Bob
+{
+	TV bobsRemote = new TV(); //1 TV object now exists on the heap
+	public Bob()
+	{
+		new Tim(bobsRemote);
+	}
+}
+
+public class Tim
+{
+
+	public Tim(TV timsRemote)
+	{
+		//now tim has his own remote, but they both control Bob's TV
+		timsRemote.setChannel("Playboy");
+		//now both Bob and Tim are aroused
+
+		timsRemote = new TV();//now 2 TVs are on the heap
+		//Tim just bought a new TV and reprogrammed his
+		//universal TV remote control
+		//Bob is still aroused
+		timsRemote.setChannel("CNN");
+		//now Tim is learning about Anthrax
+		//Bob is still aroused
+	}
+}
+
