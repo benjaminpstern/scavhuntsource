@@ -24,15 +24,15 @@ int main() {
             "ufm qcciq y iglb md ilmujcbec mljw wms ayl npmtgbc\n"
             "rcjj fgk ufyr fc lccbq rm ilmu ylb wms qfyjj dglb pcuypbq zcwmlb kcyqspc\n"
             "rfcpc gq y jgzpypw md qapmjjq\n"
-            "rfc buypd gq glrcpcqrcb gl rfc lskzcp md jglcq gl rfc dgpqr db qapmjjq yjnfyzcrgayjjw\n"
+            "rfc buypd gq glrcpcqrcb gl rfc lskzcp md jglcq gl rfc dgpqr ruclrw qapmjjq yjnfyzcrgayjjw\n"
             "bellman-ford\n"
           );
     /*
     strcpy(message,"the one which you seek is a curious-dwarf\n"
         "who seeks a kind of knowledge only you can provide\n"
         "tell him what he needs to know and you shall find rewards beyond measure\n"
-        "there is a library of scrolls"
-        "the dwarf is interested in the number of lines in the first 20 scrolls alphabetically");
+        "there is a library of scrolls\n"
+        "the dwarf is interested in the number of lines in the first twenty scrolls alphabetically\n");
         */
     int newline = '\n';
     srand(time(NULL));
