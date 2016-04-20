@@ -25,7 +25,6 @@ int main() {
             "rcjj fgk ufyr fc lccbq rm ilmu ylb wms qfyjj dglb pcuypbq zcwmlb kcyqspc\n"
             "rfcpc gq y jgzpypw md qapmjjq\n"
             "rfc buypd gq glrcpcqrcb gl rfc lskzcp md jglcq gl rfc dgpqr dgdrccl qapmjjq yjnfyzcrgayjjw\n"
-            "bellman-ford\n"
           );
     /*
     strcpy(message,"the one which you seek is a curious-dwarf\n"
