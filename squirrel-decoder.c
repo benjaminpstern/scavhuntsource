@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int c;
+	while ((c = getchar())!= EOF) {
+		if(c == '\n') {
+			putchar(c);
+		}
+		else {
+			putchar(c - 2);
+		}
+	}
+	fclose(stdin);
+}
+
